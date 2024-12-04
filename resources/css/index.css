@@ -1,0 +1,86 @@
+* {
+    font-family: Helvetica;
+}
+
+/* To ensure the image covers the whole website */
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* For banner */
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+/* Product titles top */
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+}
+
+/* Product titles under image */
+h3 {
+    font-weight: bold;
+}
+
+/* For the price / frame */
+strong {
+    text-align: right;
+    font-weight: bold;
+    color: blue
+}
+
+/* for the product images */
+img {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Banner at the top of the page */
+.banner {
+    background-image: url("../images/pattern.jpeg") ;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 300px;
+    min-width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+   
+
+}
+
+/* Background colors for product titles top*/
+.brushes {
+    background-color:mediumspringgreen;
+}
+
+.frames {
+ background-color: lightcoral;   
+}
+
+.paint {
+    background-color: skyblue;
+}
+
+/* Boxes of products placed next to each other and aligned at the top */
+.product {
+    display: inline-block;
+    box-sizing: border-box; 
+    vertical-align: top;
+    width: 30%; 
+    margin: 10px; 
+    padding: 10px;
+    border: 5px; 
+  }
